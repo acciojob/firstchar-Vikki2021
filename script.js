@@ -1,13 +1,7 @@
 function firstChar(text) {
   // your code here
-	for (let i = 0; i < str.length; i++) {
-        if (str[i] !== ' ') {
-            return str[i];
-        }
-    }
-    return '';
-
-}
+	let str = text.trim();
+	return str.charAt(0);
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
