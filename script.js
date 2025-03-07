@@ -1,6 +1,6 @@
 function firstChar(text) {
   // your code here
-	if(text===" ") return "";
+	if(text===" " || text==="") return "";
 	text = text.trim();
 	let arr = text.split("");
 	let ans = arr[0];
@@ -11,5 +11,5 @@ function firstChar(text) {
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
-const text = prompt("Enter text:");
+// const text = prompt("Enter text:");
 alert(firstChar(text));
