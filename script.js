@@ -1,5 +1,6 @@
 function firstChar(text) {
   // your code here
+	if(text===" ") return "";
 	text = text.trim();
 	let arr = text.split("");
 	let ans = arr[0];
