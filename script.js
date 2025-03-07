@@ -1,11 +1,11 @@
 function firstChar(text) {
   // your code here
-	if(text===" " || text==="") return "";
-	text = text.trim();
-	let arr = text.split("");
-	let ans = arr[0];
-	// let res = ans.join("");
-	return ans;
+	for (let char of str) {
+        if (char !== ' ') {
+            return char;
+        }
+    }
+    return '';
 
 }
 
