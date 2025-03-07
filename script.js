@@ -5,7 +5,8 @@ function firstChar(text) {
 	let arr = text.split("");
 	let ans = arr[0];
 	// let res = ans.join("");
-	return res;
+	return ans;
+
 }
 
 // Do not change the code below
