@@ -4,7 +4,7 @@ function firstChar(text) {
 	text = text.trim();
 	let arr = text.split("");
 	let ans = arr[0];
-	let res = ans.join("");
+	// let res = ans.join("");
 	return res;
 }
 
